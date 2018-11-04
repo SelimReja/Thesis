@@ -1,0 +1,193 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #F5F5F5;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+.menu ul{
+    margin: 0;
+}
+.menu ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.mid{
+    width: 90%;
+    margin: auto;
+}
+.menu{
+    background-color: #0060A5;
+}
+.menu::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu a{
+    display: block;
+    color: #fff;
+    padding: 7px 13px 7px 0px;
+    font-size: 14px;
+}
+.menu a:hover{
+    text-decoration: none;
+}
+.menu .left{
+    width: 80%;
+    float: left;
+}
+.menu .right{
+    width: 20%;
+    float: left;
+    text-align: right;
+}
+
+.tolls{
+    background-color: #E8E8E8;
+    width: 80px;
+    position: absolute;
+    border-radius: 0px 0px 7px 7px;
+    top: 70px;
+    left: 25px;
+    padding: 17px 0px;
+}
+.tolls a{
+    text-decoration: none;
+    color: #000;
+    background-color: transparent;
+	font-size: 20px;
+}
+.tolls > a {
+	display: inline-block;
+	transition: .3s;
+	margin-top: 10px;
+	height: 30px;
+	width: 30px;
+	padding: 6px;
+	line-height: 0;
+    margin-left: 5px;
+}
+.tolls > a:hover{
+    background-color: #000000;
+    color: #fff;
+    border-radius: 50px;
+}
+.tolls-top{
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    bottom: 100%;
+    text-align: right;
+    border-radius: 7px 7px 0px 0px;
+    color: #fff;
+    padding-right: 5px;
+    line-height: 12px;
+}
+.tolls-top i{
+    font-size: 11px;
+}
+#fore-palette, #back-palette{
+    text-align: center;
+	height: 30px;
+    width: 30px;
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#fore-palette > a , #back-palette > a{
+	display: block;
+	border-radius: 0px 0px 20px 0px;
+	z-index: 1;
+	position: relative;
+}
+#fore-palette > a{
+    background-color: #E8E8E8;
+}
+#back-palette > a {
+	background-color: #000000;
+	color: white;
+	border-right: 2px solid white;
+	border-bottom: 2px solid white;
+}
+#fore-corn{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+}
+#fore-palette #fore-corn{
+    background-color: #000;
+}
+#back-palette #fore-corn{
+    background-color: #fff;
+    color: white;
+}
+.colors {
+	display: none;
+	position: absolute;
+	left: 100%;
+    top: 50%;
+    width: 50px;
+    z-index: 5;
+}
+.colors a {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	margin: 1px;
+}
+
+.info{
+    position: absolute;
+    background-color: #FEFEFE;
+    width: 300px;
+    right: 21px;
+    top: 70px;
+}
+.info .tolls-top{
+    text-align: left;
+    padding-left: 5px;
+}
+.LHS{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid gray;
+}
+.LHS .library , .hierarchy , .share{
+    width: 33%;
+    float: left;
+}
+.LHS .library{
+    background-color: #1061F9;
+}
+.LHS .hierarchy{
+    background-color: #43855F;
+    width: 34% !important;
+}
+.LHS .share{
+    background-color: #684176;
+}
+.LHS::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.info .contents{
+    padding: 5px;
+}
+
+#main {
+    position: relative;
+    top: 22px;
+    left: 41%;
+    transform: translate(-50%);
+    width: 800px;
+}
